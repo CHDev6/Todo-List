@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="blurbg hidden"></div>
+
+    <div class="main">
+        <div class="edit_modal hidden">
+            <button class="edit_modal_dont_save">Don't Save</button>
+            <button class="edit_modal_save">Save</button>
+            <textarea placeholder="Enter a task..."spellcheck="false"name="baka" class="edit_modal_edit"></textarea>
+            <h3 class="edit_modal_color_label">Change Color: </h3>
+            <input type="color" class="edit_modal_color">
+            <div class="edit_modal_color_border"></div>
+            <h3 class="edit_modal_edit_label">Click to edit task</h3>
+        </div>
+        
+        <h1 class="main__header">My Todo List</h1>
+
+        <div class="main__ui">
+            <button class="add__task">Add Task</button>
+            <input placeholder="Enter a task..."type="text" class="add__task__content">
+        </div>
+    
+        <div class="task__container"></div>   
+    </div>
+
+
+
+</body>
+<script src="script.js" defer></script>
+
+</html>
